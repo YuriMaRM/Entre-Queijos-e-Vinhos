@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Ephesis&display=swap');
+body{
+    margin :0;
+}
+header{
+    display: flex;
+    width: 100%;
+    background-color: #6F2727;
+    align-items: center;
+    justify-content: space-around;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 200px;
+}
+.container span {
+    font-family: 'Ephesis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 88px;
+    color: #F7EBE4;
+}
+.pesquisar{
+    display: flex;
+    align-items: center;
+    width: 743px;
+    height: 67px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(87, 13, 18, 0.5);
+    border-radius: 71px;
+}
+.pesquisar input{
+    background: transparent;
+    flex: 1;
+    outline: none;
+    border: 0;
+    padding: 24px 10px;
+    font-size: 20px;
+     font-family: 'Alef';
+    font-style: normal;
+    font-weight: 400;
+
+}
+.pesquisar button img{
+    width: 37px;
+}
+.pesquisar button{
+    border: 0;
+    border-radius: 50%;
+    background: #FFFFFF;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.botoes_topo{
+    display: flex;
+    width: 230px;
+    justify-content: space-between;
+}
+.botoes_topo span {
+    font-family: 'Alef';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.container_carrinho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.container_login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer; 
+}
+
+.imagem_exemplo{
+    width: 100%;
+    height: 479px;
+    cursor: pointer;
+}
+
+section{
+    background-color: #F7EBE4;
+    height: 306vh;
+}
+.cartegorias{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.caixa{
+    display: flex;
+    width: 250.65px;
+    height: 81.29px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+} 
+.caixa span{
+    font-family: 'Alef';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.titulo span{
+    width: 490px;
+    
+    font-family: 'Alef';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 84px;
+    text-align: center;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.linha{
+    width: 401px;
+    height: 0px;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: black;
+}
+
+.carrossel{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+
+}
+.container_produtos{
+    display: flex;
+    width: 304px;
+    height: 368px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    backdrop-filter: blur(4px);
+    border-radius: 41px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container_produtos span{
+    font-family: 'Alef';
+    font-style: normal;
+    font-size: 29px;
+    line-height: 39px;
+}
+.preco{
+    display: flex;
+    width: 226px;
+}
+.preco .valor{
+    color: #6F2727;
+    font-weight: 700;
+    margin-left: 20px;
+    font-size: 32px;
+}
+.adicionar{
+    width: 184px;
+    height: 50.51px;
+    background: #6F2727;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+    font-family: 'Alef';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 39px;
+    color: #FAEAE1;
+    border: 0;
+    cursor: pointer;
+}
+.seta_direira{
+    cursor: pointer;
+}
+.seta_esquerda{
+    cursor: pointer;
+}
+
+.exemplo_premiado{
+    width: 100%;
+    height: 429px;
+    margin-top: 141px;
+    cursor: pointer;
+}
+
+footer{
+    background: #892227;
+    width: 100%;
+    height: 261px;
+}
+
+.informacoes{
+    display: flex;
+    width: 910px;
+    height: 181px;
+    flex-direction: row;
+    padding-top: 25px;
+    justify-content: space-around;
+}
+
+.informacoes h1{
+    width: 164px;
+    height: 29px;
+    font-family: 'Alef';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-left: 85px;
+}
+
+.informacoes h2{
+    width: 164px;
+    height: 29px;
+    font-family: 'Alef';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0px;
+
+}
+.informacoes span{
+    font-family: 'Alef';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.instagram{
+    display: flex;
+    align-items: center;
+    width: 302px;
+    justify-content: space-around;
+}
+.facebook{
+    display: flex;
+    align-items: center;
+    width: 290px;
+    justify-content: space-around;
+}
+.whatsapp{
+    display: flex;
+    align-items: center;
+    width: 230px;
+    justify-content: space-around;
+}
+.espaço_texto_redes{
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    justify-content: space-evenly;
+}
+
+.espaço_texto{
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    justify-content: space-between;
+}
