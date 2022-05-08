@@ -103,7 +103,7 @@ header{
 
 section{
     background-color: #F7EBE4;
-    height: 306vh;
+    height: auto;
 }
 .cartegorias{
     display: flex;
@@ -225,8 +225,8 @@ section{
 
 .exemplo_premiado{
     width: 100%;
-    height: 429px;
-    margin-top: 141px;
+    height: 49vh;
+    margin-top: 16.3vh;
     cursor: pointer;
 }
 
