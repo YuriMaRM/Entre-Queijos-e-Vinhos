@@ -42,20 +42,20 @@
             <div class="linha-horizontal"></div>
             <div class="bloco-branco">
                 <form id="form" class="form">
-                    <input onclick="validateName()" id="enableName" class="nameinput" type="text" name="userform"
+                    <input onblur="validateName()" id="enableName" class="nameinput" type="text" name="userform"
                         placeholder="Nome:Lucas Mendes"> </input>
-                    <input onclick="validateCpf()" id="enableCpf" class="cpfinput" type="number" name="cpfform"
+                    <input onblur="validateCpf()" id="enableCpf" class="cpfinput" type="number" name="cpfform"
                         placeholder="CPF:000.000.000.-01"> </input>
-                    <select id="enableGenero" onclick="validateGenero()" class="generoinput">
+                    <select id="enableGenero" onblur="validateGenero()" class="generoinput">
                         <option>Masculino</option>
                         <option>Feminino</option>
                         <option>Outros</option>
                     </select>
-                    <input onclick="validateTel()" id="enableTel" class="telefoneinput" type="tel" name="telform"
+                    <input onblur="validateTel()" id="enableTel" class="telefoneinput" type="tel" name="telform"
                         placeholder="Tel: (45)99999-9999"> </input>
-                    <input onclick="validateData()" id="enableData" class="datainput" type="date" name="dateform"
+                    <input onblur="validateData()" id="enableData" class="datainput" type="date" name="dateform"
                         placeholder="Nascimento:gdgfd"> </input>
-                    <input onclick="validateEmail()" id="enableEmail" class="emailinput" type="email" name="emailform"
+                    <input onblur="validateEmail()" id="enableEmail" class="emailinput" type="email" name="emailform"
                         placeholder="E-mail: lucas@mendes.com"> </input>
             </div>
         </div>
