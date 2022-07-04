@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Ephesis&display=swap');
 
-body{
-    margin :0;
+body {
+    margin: 0;
 }
-header{
+
+header {
     display: flex;
     width: 100%;
     height: 27.8vh;
@@ -12,10 +13,12 @@ header{
     align-items: center;
     justify-content: space-around;
 }
-.botoes_topo a{
+
+.botoes_topo a {
     text-decoration: none;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,87 +26,99 @@ header{
     height: 29.12vh;
     min-height: 17.56vh;
 }
-.logo{
+
+.logo {
     width: 11vw;
     height: auto;
 }
+
 .container span {
     font-family: 'Ephesis';
     font-style: normal;
     font-weight: 400;
-    font-size: clamp(2.80vw,3vw,3.47vw);
+    font-size: clamp(2.80vw, 3vw, 3.47vw);
     line-height: 12.17vh;
     color: #F7EBE4;
 }
-.pesquisar{
+
+.pesquisar {
     display: flex;
     align-items: center;
     width: 44vw;
     height: 8vh;
     background: #FFFFFF;
     box-shadow: 0px 0.55vh 0.55vh rgba(87, 13, 18, 0.5);
-    border-radius:  4.74vw;
+    border-radius: 4.74vw;
 }
-.pesquisar input{
+
+.pesquisar input {
     background: transparent;
     flex: 1;
     outline: none;
     border: 0;
     padding: 1.60vw 0.66vw;
     font-size: 1.33vw;
-     font-family: 'Alef';
+    font-family: 'Alef';
     font-style: normal;
     font-weight: 400;
 
 }
-.pesquisar button img{
+
+.pesquisar button img {
     width: 2.47vw;
 }
-.pesquisar button{
+
+.pesquisar button {
     border: 0;
     border-radius: 50%;
     background: #FFFFFF;
     cursor: pointer;
     margin-right: 0.66vw;
 }
-.botoes_topo{
-    position : relative;
+
+.botoes_topo {
+    position: relative;
     top: 0.5vh;
     display: flex;
     width: 15.38vw;
     justify-content: space-around;
 }
-.botoes_topo img{
+
+.botoes_topo img {
     width: 5.26vw;
-    height:auto;
+    height: auto;
 }
+
 .botoes_topo span {
     font-family: 'Alef';
     font-style: normal;
     font-weight: 600;
-    font-size: clamp(0.93vw,1.05vw,1.33vw);
+    font-size: clamp(0.93vw, 1.05vw, 1.33vw);
     line-height: 3.73vh;
     color: #FFFFFF;
 }
-.container_carrinho{
+
+.container_carrinho {
     display: flex;
     flex-direction: column;
     align-items: center;
     cursor: pointer;
 }
-.container_login{
+
+.container_login {
     display: flex;
     flex-direction: column;
     align-items: center;
-    cursor: pointer; 
+    cursor: pointer;
 }
-footer{
+
+footer {
     background: #892227;
     width: 100%;
     height: 36.09vh;
 }
 
-.informacoes{
+.informacoes {
     display: flex;
     width: 77.8vw;
     height: 12.10vh;
@@ -111,10 +126,12 @@ footer{
     padding-top: 3.45vw;
     justify-content: space-around;
 }
-.informacoes img{
+
+.informacoes img {
     width: 2.4vw;
 }
-.informacoes h1{
+
+.informacoes h1 {
     height: 4.01vh;
     font-family: 'Alef';
     font-style: normal;
@@ -127,7 +144,7 @@ footer{
     margin-left: 5.68vw;
 }
 
-.informacoes h2{
+.informacoes h2 {
     width: 19.96vw;
     height: 4.01vh;
     font-family: 'Alef';
@@ -140,7 +157,8 @@ footer{
     margin-bottom: 0px;
 
 }
-.informacoes span{
+
+.informacoes span {
     font-family: 'Alef';
     font-style: normal;
     font-weight: 400;
@@ -148,64 +166,83 @@ footer{
     line-height: 3.73vh;
     color: #FFFFFF;
 }
-.instagram{
+
+.instagram {
     display: flex;
     align-items: center;
     width: 20.20vw;
     justify-content: space-around;
 }
-.facebook{
+
+.facebook {
     display: flex;
     align-items: center;
     width: 19.39vw;
     justify-content: space-around;
 }
-.informacoes .facebook_img{
+
+.informacoes .facebook_img {
     width: 1.5vw;
 }
-.whatsapp{
+
+.whatsapp {
     display: flex;
     align-items: center;
     width: 15.38vw;
     justify-content: space-around;
 }
-.espaço_texto_redes{
+
+.espaço_texto_redes {
     display: flex;
     flex-direction: column;
     height: 24.89vh;
     justify-content: space-evenly;
 }
 
-.espaço_texto{
+.espaço_texto {
     display: flex;
     flex-direction: column;
     height: 24.89vh;
     justify-content: space-between;
 }
-.imagem-whats{
+
+.imagem-whats {
     margin-left: 0.5vw;
     padding-right: 1vw;
 }
-.insta-texto{
+
+.insta-texto {
     margin-right: 0.7vw;
 }
 
 @media only screen and (max-width: 908px) {
-    .whatsapp{
+    .whatsapp {
         width: 17.38vw;
     }
-    .imagem-whats{
+
+    .imagem-whats {
         margin-left: 0.5vw;
         padding-right: 0vw;
         position: relative;
         right: 1vw;
     }
 }
-@media (max-width: 765px){
-    footer{
+
+@media (max-width: 765px) {
+    header {
+        height: 23.8vh;
+    }
+
+    .pesquisar {
+        min-height: 2.53vh;
+        width: 42vw;
+    }
+
+    footer {
         height: 85.09vh;
     }
-    .informacoes{
+
+    .informacoes {
         display: flex;
         width: 64vw;
         height: 12.1vh;
@@ -214,58 +251,86 @@ footer{
         align-items: center;
         justify-content: flex-start;
     }
-    .informacoes h1{        
-    width: 50vw;
-    font-size: 1.5rem;
+
+    .informacoes h1 {
+        width: 50vw;
+        font-size: 1.5rem;
     }
-    .informacoes h2{
+
+    .informacoes h2 {
         width: 44vw;
         font-size: 1.5rem;
         padding-top: 5vh;
     }
-    .informacoes span{
+
+    .informacoes span {
         font-size: 1rem;
         padding-top: 1vh;
         width: 42vw;
     }
-    .facebook{
+
+    .facebook {
         width: 30.39vw;
     }
-    .whatsapp{
+
+    .whatsapp {
         width: 40.38vw;
         margin-left: -10vw;
     }
-    .instagram{
+
+    .container span{
+        font-size: 2rem;
+        width: 69vw;
+    }
+    .instagram {
         width: 32.2vw;
     }
-    .instagram_img{
+
+    .instagram_img {
         margin-right: 4vw;
     }
 
-    .informacoes img{
+    .informacoes img {
         width: 6.4vw;
     }
-    .imagem-whats{
+
+    .imagem-whats {
         padding-right: 4vw;
     }
-    .informacoes .facebook_img{
-    width: 4.5vw;
-    padding-right: 5vw;
+
+    .informacoes .facebook_img {
+        width: 4.5vw;
+        padding-right: 5vw;
     }
-    .espaço_texto_redes{
-    margin-left: 15vw;
+
+    .espaço_texto_redes {
+        margin-left: 15vw;
     }
 
 
 
     .logo {
-        width: 18vw;
+        width: 17vw;
+        position: relative;
+        right: 1vw;
     }
-
+    .botoes_topo img {
+        width: 14.26vw;
+    }
+    .botoes_topo span {
+        font-size: 0.7rem;
+    }
     .pesquisar {
         display: flex;
         align-items: center;
         width: 44vw;
         height: 4vh;
+        margin-right: 8vw;
+    }
+    .container{
+        width: 52vw;
+    }
+    .botoes_topo{
+        right: 4vw;
     }
 }
