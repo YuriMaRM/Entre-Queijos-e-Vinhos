@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/editar_produto.css">
+    <link rel="stylesheet" href="../../styles/general.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="../../index.html">
+            <img class="logo" src="../../img/Icone.png" alt="">
+        </a>
+
+        <div class="container">
+            <span>Entre Queijos e Vinhos</span>
+        </div>
+        <div class="botoes_topo">
+            <a href="../../index.html" class="container_carrinho">
+                <img src="../../img/exit.png" alt="">
+                <span>Sair</span>
+            </a>
+        </div>
+    </header>
+    <section class="ADM">
+        <span class="editar-texto">Editar Produto</span>
+        <hr class="editar-linha">
+        <form action="">
+        <div class="quadrado-branco">
+            
+            <div class="flex-quadrado">
+                <div class="flex-inputs-esquerda">
+                    
+                    <input class="input-editar" type="text" id="nome"  placeholder="Nome: Lorem Ipsum">
+                    
+                    <input class="input-editar" type="number" id="lote"  placeholder="Num.Lote: 0001">
+                    
+                    <input class="input-editar" type="number" id="valor"  placeholder="Valor: R$ 00,00">
+                    
+                    <input class="input-editar" type="number" id="estoque"  placeholder="Estoque: 2">
+                    
+                    <input class="input-editar" type="text" id="vinho"  placeholder="Tipo: Vinho">
+                </div>
+            <div class="flex-inputs-direita">
+                <textarea  class="descrição" type="text" id="descrição"  placeholder="Descrição"></textarea>
+                <textarea  class="palavras-chave" type="text" id="palavras-chave"  placeholder="Palavras-chave"></textarea>
+                
+            </div>
+          
+        </div>
+        <div class="container-submit">
+            <input type="submit" value="Salvar">
+        </div>
+    </form>
+        <section class="fotos">
+            <span class="editar-texto-fotos">Fotos</span>
+            <hr class="editar-linha">
+
+            <form>
+                <div>
+                    <label class="quadrado-branco-imagem" for="arquivo"></label>
+                    <input type="file" name="arquivo" id="arquivo">
+                </div>
+            </form>
+        </section>
+
+
+    </section>
+   
+    <footer>
+        <div class="informacoes">
+            <div class="footer_titulo">
+                <h1>Redes sociais</h1>
+                <div class="espaço_texto_redes">    
+                    <div class="instagram"> 
+                        <img class="instagram_img" src="../../img/instagram.png" alt="">
+                        <span class="insta-texto">@entrequeijosevinhos</span>
+                    </div>
+                    <div class="whatsapp">
+                        <img class="imagem-whats" src="../../img/whatsapp.png" alt="">
+                        <span>(45)9999-9999</span>
+                    </div>
+                    <div class="facebook"> 
+                        <img class="facebook_img" src="../../img/facebook.png" alt="">
+                        <span>entrequeijosevinhos</span>
+                    </div>
+                </div>    
+            </div>
+            <div class="espaço_texto">        
+                <h2>Ajuda</h2>
+                <span>Termos e Condições</span>
+                <span>FAQ</span>
+                <span>Política de devolução</span>
+            </div>
+
+            <div class="espaço_texto">        
+                <h2>Fale Conosco</h2>
+                <span>(45) 9999-9999</span>
+                <span>FAQ</span>
+                <span>email@hotmail.com</span>
+            </div>
+        </div>
+        
+    </footer>
+</body>
+</html>

@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    margin: 0;
+}
+
+.userSection{
+ 
+ width: 100vw;
+ height: 150vh;
+ background-color: #F6EBE4;
+ display: flex;
+
+}
+
+.button-confirm{
+ 
+  position: absolute;
+  width: 3vw;
+  height:6vh;
+  background-color: #4BAE4F;
+  border-radius:  10vw;
+  margin-left: 87vw;
+  margin-top: 5vh;
+ 
+ }
+ 
+
+
+.img-confirm{
+  position: absolute;
+  width: 3.5vw;
+  height: 5vh;
+  margin-left: -1.7vw;
+  margin-top: -2.4vh;
+  cursor: pointer;
+  }
+  
+
+.divDadospessoais{
+
+ display: flex;
+ justify-content: center;
+ position: relative;
+ height: 70vh;
+ width: 95vw;
+ background-color: #F6EBE4;
+ margin-left: 2.5vw;
+
+}
+
+.textDados{
+  position: absolute;
+  font-family: 'Gideon Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: #5E2200;
+  
+}
+::placeholder{
+  color: #666666;
+font-family: 'Alef';
+font-style: normal;
+font-weight: 700;
+font-size: 1rem;
+}
+
+.linha-horizontal{
+  display: flex;
+  position: absolute;
+  margin-top: 13vh;
+  height: 0%;
+  width: 90vw;
+  border: 1px solid #5E2200;
+}
+
+.bloco-branco{
+  display: flex;
+  position: absolute;
+  margin-top: 15vh;
+  width:90vw;
+  height: 43vh;
+  background-color: #FFFFFF;
+  border-radius: 2vw;
+  
+
+}
+.bloco-branco2{
+  display: flex;
+  position: absolute;
+  margin-top: 65vh;
+  margin-left: 5vw;
+  width:90vw;
+  height: 70vh;
+  background-color: #FFFFFF;
+  border-radius: 2vw;
+  
+}
+
+
+.bloco-marrom{
+  
+  display: flex;
+  position: absolute;
+  margin-left: 1.5vw;
+  margin-top: 2vh;
+  width:87vw;
+  height: 65vh;
+  background-color: #32080B;
+  border-radius: 2vw;
+  justify-content: flex-start;
+
+
+}
+.bloco-bege{
+
+  display: flex;
+  position: absolute;
+  margin-left: 1vw;
+  margin-top: 10vh;
+  width:85vw;
+  height: 52vh;
+  background-color:  #F6EBE4;
+  border-radius: 2vw;
+  justify-content: flex-start;
+
+}
+.bloco-dados{
+
+  display: flex;
+  position: absolute;
+  margin-left: 1vw;
+  margin-top: 3vh;
+  width:83vw;
+  height: 8vh;
+  background-color:  #892227;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+
+  
+}
+.texto-numero-produto{
+padding-left: 1.5vw;
+}
+.texto-vejamais{
+  padding-right: 1.5vw;
+}
+.texto-acaminho{
+  
+  display: flex;
+  position: absolute;
+  width:43.5vw;
+  height: 8.2vh;
+  background-color: #32080B;
+  border-radius: 1vw;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+  border: 2.5px solid black;
+  border-bottom: 10px solid transparent;
+  
+}
+
+.texto-entregues{
+ 
+  display: flex;
+  position: absolute;
+  width:45vw;
+  height: 8.5vh;
+  margin-left: 42vw;
+  background-color: #892227;
+  border-radius: 1vw;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2.5px solid black;
+  
+
+
+}
+
+.form{
+  display: flex;
+  padding-left: 2vw;
+  padding-top: 2vh;
+  
+}
+
+#placeholder-text::placeholder{
+
+color: #666666;
+font-family: 'Alef';
+font-style: normal;
+font-weight: 700;
+font-size: 1.8rem;
+position: absolute;
+padding-top: 1.5vh;
+
+}
+
+.nameinput{
+
+  position: absolute;
+  border-radius: 10vh;
+  border:  1px solid #B5B5B5;
+  background-color: #FFFFFF;
+  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.15); ;
+  width: 35vw;
+  height: 8.5vh;
+  padding-left: 2vw;
+  margin-top: 2vh;
+  
+  }
+  .correct{
+    border: 0.2vw solid #4BAE4F;
+    
+}
+
+  .cpfinput{
+    
+    position:absolute;
+    border-radius: 10vh;
+    border:  1px solid #B5B5B5;
+    background-color: #FFFFFF;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.15); ;
+    width: 35vw;
+    height: 8.5vh;
+    padding-left: 2vw;
+    margin-left: 48vw;
+    margin-top: 2vh;
+  
+  
+  }
+  .generoinput{
+  
+    position: absolute;
+    border-radius: 10vh;
+    border:  1px solid #B5B5B5;
+    background-color: #FFFFFF;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.15); ;
+    width: 37.5vw;
+    height: 9.5vh;
+    padding-left: 2vw;
+    margin-top: 15vh;  
+  
+  }
+  .telefoneinput{
+  
+    position: absolute;
+    border-radius: 10vh;
+    border:  1px solid #B5B5B5;
+    background-color: #FFFFFF;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.15); ;
+    width: 35vw;
+    height: 8.5vh;
+    padding-left: 2vw;
+    margin-top: 15vh;
+    margin-left: 48vw;  
+  
+  
+  }
+  
+  .datainput{
+  
+    position: absolute;
+    border-radius: 10vh;
+    border:  1px solid #B5B5B5;
+    background-color: #FFFFFF;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.15); ;
+    width: 35vw;
+    height: 8.5vh;
+    padding-left: 2vw;
+    margin-top: 28vh;  
+  
+  }
+  
+  .emailinput{
+  
+  
+    position: absolute;
+    border-radius: 10vh;
+    border:  1px solid #B5B5B5;
+    background-color: #FFFFFF;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.15); ;
+    width: 35vw;
+    height: 8.5vh;
+    padding-left: 2vw;
+    margin-top: 28vh;  
+    margin-left: 48vw;  
+  
+  
+  }
+
+
+/* RESPONSIVIDADE PARA MOBILE*/
+
+@media (max-width:765px){
+
+  #placeholder-text::placeholder{  
+    font-size: 1rem;
+    padding-top: 1vh;
+  
+   }
+
+.bloco-branco{
+width: 90vw;
+height: 58vh;
+
+
+}
+.bloco-branco2{
+  margin-top: 80vh;
+  margin-left: 0.2vw;
+  width: 100vw;
+}
+
+.bloco-marrom{
+width: 97vw;
+
+}
+
+.nameinput{
+  width: 83vw;
+  height: 5vh;
+  display: flex;
+}
+
+.cpfinput{
+
+margin-top: 10.5vh;
+margin-left: 0.5vw;
+width: 83vw;
+height: 5vh;
+
+}
+
+.generoinput{
+
+  margin-top: 19vh;
+  width: 83vw;
+  height: 5vh;
+}
+
+.telefoneinput{
+
+  margin-left: 0.5vw;
+  margin-top: 28vh;
+  width: 83vw;
+  height: 5vh;
+}
+
+.datainput{
+  width: 83vw;
+  margin-top: 37vh;
+  height: 5vh;
+}
+
+.emailinput{
+  height: 5vh;
+  width: 83vw;
+  margin-top: 46vh;
+  margin-left: 0.5vw;
+
+}
+
+.texto-acaminho{
+width: 46.9vw;
+
+}
+
+.texto-entregues{
+width: 49vw;
+margin-left: 47.2vw;
+}
+
+.bloco-bege{
+width: 94vw;
+}
+
+.bloco-dados{
+width: 92vw;
+font-size: 0.8rem;
+}
+
+
+.divDadospessoais{
+ 
+  justify-content: center;
+
+}
+.textDados{
+  margin-top: 5vh;
+  margin-right: 18vw;
+  
+}
+
+.button-confirm{
+
+ width: 10vw;
+ height: 6vh;
+ margin-left: 74vw;
+}
+
+
+}
+
+
+/* FIM DA RESPONSIVIDADE PARA MOBILE*/

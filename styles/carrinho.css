@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.textDados{
+  font-family: 'Gideon Roman';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 4rem;
+  color: rgba(94, 34, 0, 0.74);
+}
+.divDadospessoais{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 1vw;
+    height: 8vh;
+    width: 91vw;
+    border-bottom: 1px solid rgb(94, 34, 34)
+}
+
+.lixo{
+    height: 6vh;
+}
+.divlixo{
+  margin-left: 76vw;
+}
+
+.produto,.preço,.quantidade,.total,.nomevinho,.preçovinho,.totalvinho,.quantidadevinho{
+font-family: 'Alef';
+font-style: normal;
+font-weight: 700;
+font-size: 1.5rem;
+line-height: 4rem;
+color: #000000;
+
+}
+.produto{
+  width: 45vw;
+}
+.preço,.quantidade,.total{
+  width: 16vw;
+}
+.fotovinho{
+  height: 29vh;
+}
+.produtovinho{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.maisvinho,.menosvinho{
+  height: 3vh;
+}
+.quantos{
+  padding-left: 3.5vw;
+}
+.quantidadevinho{
+  padding: 2vw;
+}
+.totalvinho
+{
+  padding-left: 3vw;
+}
+.preçovinho{
+  padding-left: 4vw;
+}
+.produto{
+  border-top-left-radius: 14px;
+}
+.produtovinho{
+  border-bottom-left-radius:14px;
+}
+.totalvinho{
+  border-bottom-right-radius: 14px;
+}
+.total{
+  border-top-right-radius: 14px;
+}
+body{
+  background-color:#F6EBE4;
+}
+table{
+  background-color: white;
+  border-radius: 40px;
+  margin-top: 1vh;
+  margin-left: 1vw;
+}
+.produtovinho,.preçovinho,.quantos,.produto,.preço,.quantidade{
+  border-right: 1px solid;
+}
+.produto,.preço,.quantidade,.total{
+  border-bottom: 1px solid;
+}
+.calculo{
+  font-family: 'Alef';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  text-align: center;
+  color: #000000;
+  height: 8vh;
+}
+.frete{
+  display: flex;
+  flex-direction: column;
+  width: 27vw;
+  align-items: center;
+}
+.botaocalc{
+    font-family: 'Alef';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 4rem;
+    text-align: center;
+    background-color: #892227;
+    border-radius: 18px;
+    width: 11vw;
+    height: 7vh;
+    line-height: 3rem;
+    margin-top: 1.5vh;
+    color: #FFFFFF;
+}
+select{
+  font-family: 'Alef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #000000;
+  border-radius: 10px;
+  border-color: black;
+}
+.dias{
+  font-family: 'Alef';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #000000;
+}
+.gratis{
+  font-family: 'Alef';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #4BAE4F;
+}
+.balaofrete{
+  margin-left: 17vh;
+  width: 26vw;
+  background-color: white;
+  margin-top: 4vh;
+  border-radius: 22px;
+  padding: 3vh;
+
+}
+.promoção{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+    height: 5vh;
+}
+input{
+  border-radius: 10px;
+  border: 1px solid;
+  height: 5vh;
+  width: 16vw;
+
+}
+.baixo{
+  display: flex;
+
+}
+.segundobalao{  
+  font-family: 'Alef';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  text-align: center;
+  color: #000000;
+  height: 8vh;
+}
+.valor2{
+    padding-left: 1vw;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+.dois{
+  align-items: center;
+}
+.totalcomfrete{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  text-align: center;
+  color: #000000;
+  height: 7vh;
+  width: 12vw;
+  margin-top: 6vh;
+  margin-top: 1px solid;
+  margin-left: 1px solid;
+}
+#table2{
+  border-radius: 18px;
+  margin-top: 2b;
+  margin-top: 2vw;
+}
+#borda{
+  border-top: 1px solid;
+  border-left: 1px solid;
+}
+.flexds{
+    width: 36vw;
+    margin-left: 14vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.segundobalao{
+  height: 6vh;
+  width: 3vw;
+
+}
+.alinha{
+  display: flex;
+    justify-content: space-evenly;
+    margin-top: 2vh;
+}
+
+.um{
+  background-color: #892227;
+    border-radius: 20px;
+    padding: 0.1Vh;
+    display: flex;
+    width: 10vw;
+}
+.um,.dois{
+  background-color: #892227;
+  border-radius: 20px;
+  padding: 0.1Vh;
+  display: flex;
+  width: 10vw;
+  font-family: 'Alef';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    text-align: center;
+    color: #FFFFFF;
+    flex-direction: row;
+    justify-content: center;
+}
+.baixo{
+  margin-top: 6vh;
+}
+.valor2{
+  width: 11vw;
+}
+.table2{
+  margin-left: 26vw;
+    margin-top: 2vw;
+
+}
+.reais{
+  height: 5vh;
+}
+@media(max-width: 765px){
+  .divlixo{
+    margin-left: 37vw;
+  }
+  produto,.preço,.quantidade,.total,.nomevinho,.preçovinho,.totalvinho,.quantidadevinho{
+    font-family: 'Alef';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: #000000;
+    line-height: 2vh;
+    }
+    .fotovinho {
+      height: 12vh;
+  }
+  .balaofrete{
+    width: 48vw;
+    background-color: white;
+    margin-top: 4vh;
+    border-radius: 22px;
+    padding: 0vh;
+    margin-left: 0;
+  }
+  
+  .reais,.totalcomfrete{
+    font-size: 0.9rem;
+  }
+  .flexds{
+    width: 94vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .gratis{
+    margin-right: 2vh;
+  }
+  .um,.dois{
+    width: 43vw;
+  }
+  .frete{
+    display: flex;
+    flex-direction: column;
+    width: 27vw;
+    align-items: center;
+  }
+  .calculo{
+    font-family: 'Alef';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #000000;
+    height: 5vh;
+    width: 48vw;
+    padding-left: 8vh;
+  }
+  input{
+    border-radius: 10px;
+    border: 1px solid;
+    height: 5vh;
+    width: 34vw;
+    margin-left: 16vw;
+  }
+  .botaocalc{
+    font-family: 'Alef';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-align: center;
+    background-color: #892227;
+    border-radius: 18px;
+    width: 26vw;
+    height: 5vh;
+    line-height: 2rem;
+    margin-top: 1.5vh;
+    color: #FFFFFF;
+  }
+  .segundobalao{
+    font-family: 'Alef';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #000000;
+  }
+  .baixo{
+    display: block;
+  }
+}

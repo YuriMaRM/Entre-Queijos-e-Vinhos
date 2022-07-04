@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Gideon+Roman&display=swap');
+body{
+    margin :0;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 27.8vh;
+    min-height: 20.7vh;
+    background-color: #892227;
+    align-items: center;
+    justify-content: space-around;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 29.12vh;
+    min-height: 17.56vh;
+}
+.logo{
+    width: 11vw;
+    height: auto;
+}
+.container span {
+    font-family: 'Ephesis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(2.80vw,3vw,3.47vw);
+    line-height: 12.17vh;
+    color: #F7EBE4;
+}
+.pesquisar{
+    display: flex;
+    align-items: center;
+    width: 44vw;
+    height: 8vh;
+    min-height: 5.53vh;
+    background: #FFFFFF;
+    box-shadow: 0px 0.55vh 0.55vh rgba(87, 13, 18, 0.5);
+    border-radius:  4.74vw;
+}
+.pesquisar input{
+    background: transparent;
+    flex: 1;
+    outline: none;
+    border: 0;
+    padding: 1.60vw 0.66vw;
+    font-size: 1.33vw;
+     font-family: 'Alef';
+    font-style: normal;
+    font-weight: 400;
+
+}
+.pesquisar button img{
+    width: 2.47vw;
+}
+.pesquisar button{
+    border: 0;
+    border-radius: 50%;
+    background: #FFFFFF;
+    cursor: pointer;
+    margin-right: 0.66vw;
+}
+.botoes_topo{
+    position : relative;
+    top: 0.5vh;
+    display: flex;
+    width: 15.38vw;
+    justify-content: space-around;
+}
+.botoes_topo img{
+    width: 5.26vw;
+    height:auto;
+}
+.botoes_topo span {
+    font-family: 'Alef';
+    font-style: normal;
+    font-weight: 600;
+    font-size: clamp(0.93vw,1.05vw,1.33vw);
+    line-height: 3.73vh;
+    color: #FFFFFF;
+}
+.container_carrinho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.container_login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer; 
+}
+
+.imagem_exemplo{
+    width: 100%;
+    height: 55.37vh;
+    cursor: pointer;
+}
+
+
+.ADM{
+    display: flex;
+    background-color: #F7EBE4;
+    height: 230vh; 
+    flex-direction: column;
+    align-items: center;
+}
+.editar-texto{
+    font-family: 'Gideon Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 10.65vh;
+    color: rgba(94, 34, 0, 0.74);
+    margin-top:1vh;
+}
+.editar-linha{
+    width: 90vw;
+    transform: rotate(0deg);
+    border: 0.04vw solid #5E2200;
+    margin-bottom: 5vh;
+}
+
+.quadrado-branco{
+    width: 90vw;
+    height: 80vh;
+    background: #FFFFFF;
+    box-shadow: 0px  0.55vh  0.55vh rgba(0, 0, 0, 0.25);
+    border-radius: 5.53vh;
+}
+.flex-quadrado{
+    display: flex;
+    flex-direction: row;
+}
+.container-submit{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="submit"]{
+    padding: 1vw 2vw;
+    font-size: 1.5rem;
+    background-color: #5E2200;
+    border: 0.13vw solid #5E2200;
+    border-radius: 6vw;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+    outline: 0;
+}
+
+input[type="submit"]:hover{
+    background-color: white;
+    color: #5E2200;
+}
+.flex-inputs-esquerda{
+    display: flex;
+    height: 80vh;
+    margin-left: 4vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.flex-inputs-direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10vw;
+    height: 73vh;
+    margin-top: 4vh;
+}
+.input-editar{
+    width: 33vw;
+    height: 9vh;
+    background: #FFFFFF;
+    border: 0.13vh solid #B5B5B5;
+    box-shadow: 0 0.55vh 0.55vh rgb(0 0 0 / 15%);
+    border-radius: 2vw;
+    font-family: 'Alef';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-left:1.5vw ;
+    color: #666666;
+}
+
+.descrição{
+    width: 33vw;
+    height: 37vh;
+    background: #FFFFFF;
+    border: 0.13vh solid #B5B5B5;
+    box-shadow: 0 0.55vh 0.55vh rgb(0 0 0 / 15%);
+    border-radius: 2vw;
+    font-family: 'Alef';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-left:1.5vw ;
+    color: #666666;
+    padding-top: 1vh;
+}
+::placeholder{
+    font-size: 1.5rem;
+}
+.descrição::placeholder{
+    padding-top: 0.5vh;
+}
+.palavras-chave::placeholder{
+    padding-top: 0.5vh;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.palavras-chave{
+    width: 33vw;
+    height: 27vh;
+    background: #FFFFFF;
+    border: 0.13vh solid #B5B5B5;
+    box-shadow: 0 0.55vh 0.55vh rgb(0 0 0 / 15%);
+    border-radius: 2vw;
+    font-family: 'Alef';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-left:1.5vw ;
+    color: #666666;
+    padding-top: 1vh;
+}
+
+.editar-texto-fotos{
+    font-family: 'Gideon Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 10.65vh;
+    color: rgba(94, 34, 0, 0.74);
+}
+
+.fotos{
+    margin-top: 0vh;
+}
+.img-download{
+    position: relative;
+    width: 15vw;
+    left: 39vw;
+    top: 10vh;
+}
+input[type="file"] {
+    display: none;
+}
+.quadrado-branco-imagem {
+    display: flex;
+    width: 90vw;
+    height: 70vh;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    background-image: url("./img/Download.png");
+    background-repeat: no-repeat;
+    background-size: 15vw;
+    background-position: center;
+    box-shadow: 0px  0.55vh  0.55vh rgba(0, 0, 0, 0.25);
+    border-radius: 5.53vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background: #892227;
+    width: 100%;
+    height: 36.09vh;
+}
+
+.informacoes{
+    display: flex;
+    width:  60.8vw;
+    height: 12.10vh;
+    flex-direction: row;
+    padding-top: 3.45vw;
+    justify-content: space-around;
+}
+.informacoes img{
+    width: 2.4vw;
+}
+.informacoes h1{
+    height: 4.01vh;
+    font-family: 'Alef';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 4.56vh;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5.68vw;
+}
+
+.informacoes h2{
+    width: 19.96vw;
+    height: 4.01vh;
+    font-family: 'Alef';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 4.56vh;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0px;
+
+}
+.informacoes span{
+    font-family: 'Alef';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 3.73vh;
+    color: #FFFFFF;
+}
+.instagram{
+    display: flex;
+    align-items: center;
+    width: 20.20vw;
+    justify-content: space-around;
+}
+.facebook{
+    display: flex;
+    align-items: center;
+    width: 19.39vw;
+    justify-content: space-around;
+}
+.informacoes .facebook_img{
+    width: 1.5vw;
+}
+.whatsapp{
+    display: flex;
+    align-items: center;
+    width: 15.38vw;
+    justify-content: space-around;
+}
+.espaço_texto_redes{
+    display: flex;
+    flex-direction: column;
+    height: 24.89vh;
+    justify-content: space-evenly;
+}
+
+.espaço_texto{
+    display: flex;
+    flex-direction: column;
+    height: 24.89vh;
+    justify-content: space-between;
+}
+.imagem-whats{
+    margin-left: 0.5vw;
+    padding-right: 1vw;
+}
+.insta-texto{
+    margin-right: 0.7vw;
+}
+
+
+@media (max-width: 765px){
+    .flex-quadrado{
+        display: flex;
+        flex-direction: column;
+    }
+    .quadrado-branco{
+        width: 90vw;
+        height: 97vh;
+    }
+    .input-editar{
+        width: 80vw;
+        height: 7vh;
+    }
+    .flex-inputs-esquerda{
+        height: 67vh;
+    }
+    .flex-inputs-direita{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5vw;
+        height: 28vh;
+        margin-top: 0vh;
+        justify-content: space-around;
+    
+    }
+    .descrição{
+        width: 79vw;
+        height: 10vh;
+    }
+    .palavras-chave{
+        width: 79vw;
+        height: 10vh;
+    }
+    input[type="submit"]{
+        padding: 3vw 7vw;
+    }
+    .quadrado-branco-imagem{
+        height: 36vh;
+    }
+    .ADM{
+        height: 200vh;
+    }
+}

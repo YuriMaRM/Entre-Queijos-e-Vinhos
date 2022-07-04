@@ -218,13 +218,12 @@ createProducts.next();
 function createCard(product){
     gridProducts.innerHTML += `
         <div class="container_produtos">
-            <img class="img_produto" src="../img/vinho.png" alt="">
+            <img class="img_produto" src="../../img/vinho.png" alt="">
             <span>${product.name}</span>
             <div class="preco">
                 <span>Por:</span>
                 <span class="valor">R$${product.price}</span>
             </div>
-            <button type="button" class="adicionar">Adicionar</button>
         </div>`;
 }
 

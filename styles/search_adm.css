@@ -69,17 +69,14 @@ section .list{
     grid-template-columns: 20% 20% 20% 20%;
     gap: 2vw 2vh;
 }
-#wineQuest{
-    width: 50vw;
-    background: #570D12;
-    border-radius: 20px;
-    color: #FFFFFF;
-    text-align: center;
-    font-weight: 700;
-    font-size: 1.8rem;
-    line-height: 4rem;
-}
 
+.pesquisar_container{
+    margin-top: 3vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 .container_produtos{
     display: flex;
     height: 45vh;
@@ -122,13 +119,14 @@ section .list{
     cursor: pointer;
 }
 @media (max-width: 765px){
-    #wineQuest{
-        width: 80vw;
-        border-radius: 5px;
-        font-size: 1.5rem;
-        line-height: 2rem;
+    .pesquisar{
+
+        width: 80vw !important; 
+        height: 8vh !important;
+
     }
     .list .grid{
+        margin-top: 6vh;
         grid-template-columns: 40% 40%;
     }
     section{

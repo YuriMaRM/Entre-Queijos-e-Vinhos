@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UserPage</title>
+    <link rel="stylesheet" href="../styles/account.css">
+    <link rel="stylesheet" href="../styles/general.css">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <img class="logo" src="../img/Icone.png" alt="">
+        </a>
+
+        <div class="container">
+            <span>Entre Queijos e Vinhos</span>
+            <form action="" class="pesquisar">
+                <input type="text">
+                <button type="submit"> <img src="../img/lupa.png" alt=""></button>
+            </form>
+        </div>
+        <div class="botoes_topo">
+            <a href="carrinho.html" class="container_carrinho">
+                <img src="../img/Carrinho.png" alt="">
+                <span>Carrinho</span>
+            </a>
+            <div class="container_login">
+                <img src="../img/Login (1).png" alt="">
+                <span>Login</span>
+            </div>
+        </div>
+    </header>
+    <section class="userSection">
+        <div class="divDadospessoais">
+            <p class="textDados"> Dados Pessoais</p>
+            <button type="submit" class="button-confirm"> <img class="img-confirm" src="../img/confirm.svg" alt="confirm">
+                </img> </button>
+            <div class="linha-horizontal"></div>
+            <div class="bloco-branco">
+                <form id="form" class="form">
+                    <input onclick="validateName()" id="enableName" class="nameinput" type="text" name="userform"
+                        placeholder="Nome:Lucas Mendes"> </input>
+                    <input onclick="validateCpf()" id="enableCpf" class="cpfinput" type="number" name="cpfform"
+                        placeholder="CPF:000.000.000.-01"> </input>
+                    <select id="enableGenero" onclick="validateGenero()" class="generoinput">
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                        <option>Outros</option>
+                    </select>
+                    <input onclick="validateTel()" id="enableTel" class="telefoneinput" type="tel" name="telform"
+                        placeholder="Tel: (45)99999-9999"> </input>
+                    <input onclick="validateData()" id="enableData" class="datainput" type="date" name="dateform"
+                        placeholder="Nascimento:gdgfd"> </input>
+                    <input onclick="validateEmail()" id="enableEmail" class="emailinput" type="email" name="emailform"
+                        placeholder="E-mail: lucas@mendes.com"> </input>
+            </div>
+        </div>
+        <div class="bloco-branco2">
+            <div class="bloco-marrom">
+                <div class="texto-entregues"> Entregues</div>
+                <div class="texto-acaminho">A caminho</div>
+
+                <div class="bloco-bege">
+                    <div class="bloco-dados">
+                        <p class="texto-numero-produto"> Nº: 000000-1 </p>
+                        <p>Preparando Envio </p>
+                        <p class="texto-vejamais">Veja mais <img class="poligono" src="../img/poligono.svg" alt="poligono">
+                            </img> </p>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <footer>
+        <div class="informacoes">
+            <div class="footer_titulo">
+                <h1>Redes sociais</h1>
+                <div class="espaço_texto_redes">
+                    <div class="instagram">
+                        <img class="instagram_img" src="../img/instagram.png" alt="">
+                        <span class="insta-texto">@entrequeijosevinhos</span>
+                    </div>
+                    <div class="whatsapp">
+                        <img class="imagem-whats" src="../img/whatsapp.png" alt="">
+                        <span>(45)9999-9999</span>
+                    </div>
+                    <div class="facebook">
+                        <img class="facebook_img" src="../img/facebook.png" alt="">
+                        <span>entrequeijosevinhos</span>
+                    </div>
+                </div>
+            </div>
+            <div class="espaço_texto">
+                <h2>Ajuda</h2>
+                <span>Termos e Condições</span>
+                <span>FAQ</span>
+                <span>Política de devolução</span>
+            </div>
+
+            <div class="espaço_texto">
+                <h2>Fale Conosco</h2>
+                <span>(45) 9999-9999</span>
+                <span>FAQ</span>
+                <span>email@hotmail.com</span>
+            </div>
+        </div>
+
+    </footer>
+    <script src="../js/account.js"> </script>
+
+</body>
+
+</html>

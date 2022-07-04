@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../styles/carrinho.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/general.css">
+
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <img class="logo" src="../img/Icone.png" alt="">
+        </a>
+
+        <div class="container">
+            <span>Entre Queijos e Vinhos</span>
+            <form action="/src/search.html" class="pesquisar">
+                <input type="text" id="searchText" name="searchText">
+                <button type="submit"> <img src="../img/lupa.png" alt=""></button>
+            </form>
+        </div>
+        <div class="botoes_topo">
+            <a href="carrinho.html" class="container_carrinho">
+                <img src="../img/Carrinho.png" alt="">
+                <span>Carrinho</span>
+            </a>
+            <div class="container_login">
+                <img src="../img/Login (1).png" alt="">
+                <span>Login</span>
+            </div>
+        </div>
+    </header>
+    <section class="userSection">
+        <div class="divDadospessoais">
+            <p class="textDados"> Carrinho</p>
+            <div class="divlixo">
+                <img class="lixo" src="../img/lata-de-lixo 1.png">
+            </div>
+        </div>
+        <table id="table">
+            <tr>
+                <th class="produto">produtos</th>
+                <th class="preço">Preço</th>
+                <th class="quantidade">Quantidade</th>
+                <th class="total">Total</th>
+            </tr>
+            <tr>
+                <td class="produtovinho">
+                    <img class="fotovinho" src="../img/image 14.png">
+                    <span class="nomevinho">Vinho Lorem ipsum</span>
+                </td>
+                <td class="preçovinho">R$100,00</td>
+                <td class="quantos">
+                    <img class="menosvinho" src="../img/minus 1.png">
+                    <span class="quantidadevinho">1</span>
+                    <img class="maisvinho" src="../img/add 1.png">
+                </td>
+                <td class="totalvinho">R$100,00</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="baixo">
+        <div class="balaofrete">
+            <div class="frete">
+                <span class="calculo">Calcule o frete</span>
+                <input>
+                <span class="botaocalc">calcular</span>
+            </div>
+            <div>
+                <select>
+                    <option>Normal</option>
+                    <option>Rápido</option>
+                </select>
+            </div>
+            <div class="promoção">
+                <span class="dias">6 dias úteis</span>
+                <span class="gratis"> Grátis</span>
+            </div>
+        </div>
+        <div class="flexds">
+            <table id="table2">
+                <tr class="flexd">
+                    <th class="valor2">
+                        <span class="segundobalao">Subtotal</span>
+                        <br>
+                        <span>Frete</span>
+                    </th>
+
+                    <th class="preçofrete">
+                        <span class="totalcomfrete">R$100,00</span>
+                        <br>
+                        <span class="reais">R$15,00</span>
+                    </th>
+
+                </tr>
+                <tr>
+                    <td class="segundobalao">total</td>
+                    <td id="borda" class="totalcomfrete">R$115,00</td>
+                </tr>
+            </table>
+            <div class="alinha">
+                <span class="um">Continuar comprando</span>
+                <span class="dois">Finalizar</span>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <div class="informacoes">
+            <div class="footer_titulo">
+                <h1>Redes sociais</h1>
+                <div class="espaço_texto_redes">
+                    <div class="instagram">
+                        <img class="instagram_img" src="../img/instagram.png" alt="">
+                        <span class="insta-texto">@entrequeijosevinhos</span>
+                    </div>
+                    <div class="whatsapp">
+                        <img class="imagem-whats" src="../img/whatsapp.png" alt="">
+                        <span>(45)9999-9999</span>
+                    </div>
+                    <div class="facebook">
+                        <img class="facebook_img" src="../img/facebook.png" alt="">
+                        <span>entrequeijosevinhos</span>
+                    </div>
+                </div>
+            </div>
+            <div class="espaço_texto">
+                <h2>Ajuda</h2>
+                <span>Termos e Condições</span>
+                <span>FAQ</span>
+                <span>Política de devolução</span>
+            </div>
+
+            <div class="espaço_texto">
+                <h2>Fale Conosco</h2>
+                <span>(45) 9999-9999</span>
+                <span>FAQ</span>
+                <span>email@hotmail.com</span>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
