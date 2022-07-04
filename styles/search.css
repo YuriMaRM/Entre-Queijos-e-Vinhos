@@ -67,7 +67,7 @@ section .list{
     align-items: center;
     justify-content: center;
     grid-template-columns: 20% 20% 20% 20%;
-    gap: 2%;
+    gap: 2vw 2vh;
 }
 #wineQuest{
     width: 50vw;
